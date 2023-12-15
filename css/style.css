@@ -1,7 +1,7 @@
 :root{
     --black : #000000;
     --white : #ffffff;
-    --grey : #9c9c9c;
+    --grey : #bcbcbc;
     --blue : #0A1936;
     --fwregular : 400;
     --fwsemibold : 600;
@@ -20,7 +20,7 @@ body{
 }
 
 .logo:hover{
-    color: var(--blue);
+    color: var(--grey);
 }
 
 .navbar-expand-lg .navbar-nav {
@@ -35,7 +35,7 @@ body{
 }
 
 .navbar-nav .nav-item .active:hover{
-    color: var(--blue);
+    color: var(--grey);
 }
 
 .navbar-nav .nav-item a{
@@ -46,7 +46,7 @@ body{
 }
 
 .navbar-nav .nav-item a:hover{
-    color: var(--blue);
+    color: var(--grey);
 }
 
 .big-header{
@@ -237,7 +237,7 @@ body{
 
 .a-sertif:hover{
     text-decoration: none;
-    color: var(--blue);
+    color: var(--grey);
 }
 
 .card-portofolio{
@@ -260,7 +260,7 @@ body{
 }
 
 .card-portofolio:hover .card-text {
-    color:var(--blue);
+    color:var(--grey);
 }
 
 @media only screen and (max-width: 768px) {
