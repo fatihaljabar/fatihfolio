@@ -270,6 +270,10 @@ body{
     color:var(--white);
 }
 
+.prt{
+    width: 60%;
+}
+
 .col-portfolio{
     text-align: -webkit-center;
 }
@@ -312,9 +316,12 @@ body{
     }
 
     img {
-        margin-bottom: 30px;
         height: auto;
         width: 100%;
+    }
+
+    .img-aboutme{
+        margin-bottom: 30px;
     }
 
     .border{
@@ -382,8 +389,8 @@ body{
     }
 
     .card {
-        max-width: 200px; /* Atur lebar maksimum kartu */
-        margin: 0 auto; /* Tengahkan kartu */
+        max-width: 200px;
+        margin: 0 auto; 
     }
 
     .badge{
@@ -394,6 +401,22 @@ body{
         font-size: 15px;
     }
 
+    .badge .row{
+        justify-content: center;
+    }
+
+    .badge .row .col-lg-7{
+        flex-basis: content;
+    }
+
+    .badge .row .col-lg-5{
+        flex-basis: content;
+    }
+
+    .border{
+        margin: 0;
+    }
+
     .hero, .aboutme, .skill, .sertifikat, .portofolio{
         margin-top: 50px;
     }
@@ -402,6 +425,10 @@ body{
 @media only screen and (max-width: 430px) {
     .big-header {
         font-size: 84px; 
+    }
+
+    .prt{
+        width: 50%;
     }
 }
 
@@ -414,7 +441,7 @@ body{
 
 @media only screen and (max-width: 400px) {
     .big-header {
-        font-size: 77px; 
+        font-size: 76px; 
     }
 }
 
@@ -422,7 +449,12 @@ body{
     .big-header {
         font-size: 72px; 
     }
+    .element.style {
+        width: 40% !important;
+        height: fit-content;
+    }
 }
+
 
 @media only screen and (max-width: 360px) {
     .big-header {
