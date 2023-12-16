@@ -23,6 +23,14 @@ body{
     color: var(--grey);
 }
 
+.navbar-toggler{
+    background-color: var(--white);
+}
+
+.navbar-toggler:hover{
+    background-color: var(--grey);
+}
+
 .navbar-expand-lg .navbar-nav {
     margin-left: auto;
 }
@@ -73,7 +81,7 @@ body{
 .small-header-2{
     font-family: 'Poppins', sans-serif;
     font-weight: var(--fwbold);
-    font-size: 25px;
+    font-size: 20px;
     color: var(--black);
     text-decoration: none;
     text-align: center;
@@ -259,12 +267,19 @@ body{
 }
 
 .card-portofolio:hover .card-text {
-    color:var(--grey);
+    color:var(--white);
+}
+
+.col-portfolio{
+    text-align: -webkit-center;
+}
+
+.col-skill{
+    text-align: -webkit-center;
 }
 
 @media only screen and (max-width: 768px) {
     body {
-        text-align: center;
         padding: 10px;
         margin: 0 auto;
     }
@@ -381,5 +396,42 @@ body{
 
     .hero, .aboutme, .skill, .sertifikat, .portofolio{
         margin-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .big-header {
+        font-size: 84px; 
+    }
+}
+
+
+@media only screen and (max-width: 420px) {
+    .big-header {
+        font-size: 81px; 
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .big-header {
+        font-size: 77px; 
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .big-header {
+        font-size: 72px; 
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .big-header {
+        font-size: 69px; 
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .big-header {
+        font-size: 61px; 
     }
 }
