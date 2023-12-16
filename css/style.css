@@ -282,7 +282,31 @@ body{
     text-align: -webkit-center;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1280px) {
+
+    .big-header{
+        font-size: 201px;
+    }
+
+    .primary-copy-2{
+        font-size: 13px;
+        text-align: justify;
+    }
+}
+
+@media only screen and (max-width: 1115px) {
+
+    .big-header{
+        font-size: 169px;
+    }
+    
+    .small-header-2{
+        font-size: 18px;
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
     body {
         padding: 10px;
         margin: 0 auto;
@@ -295,24 +319,6 @@ body{
 
     .navbar-nav{
         padding: auto;
-    }
-
-    .big-header{
-        font-size: 60px;
-    }
-
-    .medium-header{
-        font-size: 28px;
-    }
-
-    .primary-copy-1{
-        font-size: 15px;
-        text-align: justify;
-    }
-
-    .primary-copy-2{
-        font-size: 10px;
-        text-align: justify;
     }
 
     img {
@@ -371,10 +377,6 @@ body{
         background-size: 50px;
     }
 
-    .small-header-3{
-        font-size: 15px;
-    }
-
     .progress{
         width: 100px;
     }
@@ -382,10 +384,6 @@ body{
     .col-7{
         column-width: auto;
         margin: auto;
-    }
-
-    .small-header-1{
-        font-size: 13px;
     }
 
     .card {
@@ -422,13 +420,80 @@ body{
     }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 885px) {
+    
+    .border-skill .row{
+        flex-wrap: nowrap;
+    }
+
+    .col-skill{
+        width: auto;
+    }
+
+    .border-portofolio .row{
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    .col-portfolio{
+        width: auto;
+    }
+
+    .prt{
+        width: 70%;
+    }
+
+    .big-header{
+        font-size: 152px;
+    }
+
+    .medium-header{
+        font-size: 34px;
+    }
+
+    .small-header-1{
+        font-size: 20px;
+    }
+
+    .small-header-3{
+        font-size: 18px;
+    }
+
+    .primary-copy-1{
+        font-size: 16px;
+        text-align: justify;
+    }
+}
+
 @media only screen and (max-width: 430px) {
     .big-header {
         font-size: 84px; 
     }
 
+    .medium-header{
+        font-size: 28px;
+    }
+
+    .small-header-1{
+        font-size: 13px;
+    }
+
+    .small-header-3{
+        font-size: 15px;
+    }
+
+    .primary-copy-1{
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    .primary-copy-2{
+        font-size: 10px;
+        text-align: justify;
+    }
+
     .prt{
-        width: 50%;
+        width: 40%;
     }
 }
 
