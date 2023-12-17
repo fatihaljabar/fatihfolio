@@ -114,6 +114,13 @@ body{
     color: var(--white);
 }
 
+.footer{
+    font-family: 'Oswald', sans-serif;
+    font-weight: var(--fwregular);
+    font-size: 13px;
+    color: var(--white);
+}
+
 .p1{
     margin: 0;
 }
@@ -257,7 +264,13 @@ body{
 }
 
 .card-body{
-    background-color: var(--grey);
+    background-color: rgb(186, 186, 186);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.card-img-top{
+    filter:contrast(100%);
 }
 
 .card-portofolio:hover .card {
